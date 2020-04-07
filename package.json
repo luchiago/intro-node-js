@@ -4,16 +4,22 @@
   "main": "index.js",
   "author": "Scott Moss <willscottmoss@gmail.com>",
   "license": "MIT",
+  "repository": "https://github.com/luchiago/intro-node-js.git",
   "devDependencies": {
-    "jest": "^23.6.0"
+    "jest": "^25.2.7"
   },
   "scripts": {
     "test": "jest"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
+    "bufferutil": "^4.0.1",
+    "canvas": "^2.6.1",
+    "commander": "^5.0.0",
     "express": "^4.16.3",
+    "inquirer": "^7.1.0",
     "mime": "^2.3.1",
-    "morgan": "^1.9.1"
+    "morgan": "^1.9.1",
+    "utf-8-validate": "^5.0.2"
   }
 }
